@@ -5,6 +5,7 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/itensors)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/itensors)
 ![PyPI - Format](https://img.shields.io/pypi/format/itensors)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/migueltorrescosta/itensors)
 
 # Useful commands
 
@@ -29,7 +30,11 @@ poetry install
 
 ## Running tests
 
-WIP
+After insuring testing dependencies are installed by running `poetry install --all-extras`, you can run tests via
+
+```bash
+pytest
+```
 
 ## Publish new version to [PyPI](https://pypi.org/project/itensors/)
 

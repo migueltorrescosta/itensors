@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "itensors"
-version = "0.1.01"
+version = "0.1.03"
 description = "Python port of the ITensors framework"
 authors = ["Miguel Costa <miguelptcosta1995@gmail.com>"]
 readme = "README.md"
@@ -9,7 +9,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 numpy = "^2.3.1"
+ncon = "^2.0.0"
 
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.4.1"
 
 [build-system]
 requires = ["poetry-core"]
