@@ -10,7 +10,6 @@ def test_itensor_creation_succeeds():
     ITensor(np.random.rand(*shape), indices)
 
 
-s
 def test_itensor_creation_fails_on_shape_mismatch():
     shape = [3, 4]
     indices = [Index(k) for k in shape]

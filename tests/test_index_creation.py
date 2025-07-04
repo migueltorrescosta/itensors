@@ -9,7 +9,7 @@ def test_index_creation_succeeds_with_the_correct_dimension():
 
 
 def test_index_creation_with_distinct_uuids():
-    number_of_samples = 10 ** 12
+    number_of_samples = 10 ** 4
     # The length of the set of index ids is smaller if any id clashes
     assert len({
         Index(np.random.randint(10)).id
